@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Travel Agency</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- header -->
+  <header id="home">
+    <nav id="nav">
+      <div class="nav-center">
+        <div class="nav-header">
+          <img src="./media/logo.png" alt="logo" class="logo">
+          <button class="nav-toggle">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+        <div class="links-container">
+          <ul class="links">
+            <li>
+              <a href="#home" class="scroll-link">home</a>
+            </li>
+            <li>
+              <a href="#about" class="scroll-link">about</a>
+            </li>
+            <li>
+              <a href="#services" class="scroll-link">services</a>
+            </li>
+            <li>
+              <a href="#tours" class="scroll-link">tours</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="banner">
+      <div class="container p-5 banner_cont">
+        <h1>Discover new worlds</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem officiis possimus, error tempora cupiditate
+          hic doloremque nemo molestias eius soluta.</p>
+        <a href="#tours" class="scroll-link btn btn-white">explore tours</a>
+      </div>
+    </div>
+  </header>
+  <!-- about section -->
+  <section id="about" class="section">
+    <div class="title">
+      <h2>about <span>us</span></h2>
+      <div class="section_p ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod facilis recusandae officia
+        eos libero numquam
+        amet, natus optio magni vitae blanditiis laborum alias sunt incidunt beatae quos? Commodi qui optio at velit
+        tempora minus autem aspernatur nam quisquam rem, dolor voluptas sed repellat, corrupti doloribus praesentium
+        dolore exercitationem ex eius!
+        amet dolor pariatur sint laboresitatibus iure veniam earum? Eaque illum quas iure aspernatur?</div>
+    </div>
+  </section>
+  <!-- services section with Bootstap-->
+  <section id="services" class="section">
+    <div class="title">
+      <h2>our <span>services</span></h2>
+    </div>
+    <div class="services-box">
+      <div class="container p-3 my-2 border text-white">
+        <h2 class="text-danger">Travel Insurance</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur fugit et perferendis autem ex aliquam
+          eligendi assumenda modi esse adipisci. Sit tenetur natus aliquam vitae pariatur sunt voluptates mollitia sint
+          <a href="#">&nbsp Read more...</a>
+        </p>
+      </div>
+      <div class="container p-3 my-2 border text-white">
+        <h2 class="text-danger">Flight Booking</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis a minima temporibus labore ipsa.
+          Excepturi , animi reiciendis architecto cupiditate ducimus! Quia aliquam harum numquam porro nostrum
+          culpa voluptates <a href="#">&nbsp Read more...</a></p>
+      </div>
+
+      <div class="container p-3 my-2 border text-white">
+        <h2 class="text-danger">Car Rent</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut dignissimos autem sunt? Repellat distinctio
+          deserunt ut hic minus voluptate obcaecati nobis assumenda, est, fuga ipsam. Accusantium quaerat blanditiis
+          delectus necessitatibus <a href="#">&nbsp Read more...</a></p>
+      </div>
+      <div class="container p-3 my-2 border text-white transp_card">
+        <h2 class="text-danger">Transfers</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut dignissimos autem sunt? Repellat distinctio
+          deserunt ut hic minus voluptate obcaecati nobis assumenda, est, fuga ipsam. Accusantium quaerat blanditiis
+          delectus necessitatibus <a href="#">&nbsp Read more...</a></p>
+      </div>
+    </div>
+  </section>
+  <!-- tours section with Bootstap-->
+  <section id="tours" class="section">
+    <div class="title">
+      <h2>featured <span>tours</span></h2>
+    </div>
+    <div class="container-tours d-flex p-2 justify-content-center flex-wrap gap-5">
+      <div class="card hide-4 " style="width: 18rem;">
+        <img src="./media/italy.jpg" class="card-img-top" alt="...">
+        <div class="card-body ">
+          <h3>Wonders of Italy</h3>
+          <p class="card-text">Lorem ipsum dolor sit. Veritatis ipsum quam culpa aperiam, saepe quo.</p>
+        </div>
+        <p class="text-center text-info">From 980$</p>
+        <button class="border-0 p-3"><a href="http://">More...</a></button>
+      </div>
+      <div class="card hide-3" style="width: 18rem;">
+        <img src="./media/malta.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h3>The Heart of Malta</h3>
+          <p class="card-text">Lorem ipsum dolor sit amet ipsum quam culpa aperiam, saepe quo.</p>
+        </div>
+        <p class="text-center text-info">From 840$</p>
+        <button class="border-0 p-3"><a href="http://">More...</a></button>
+      </div>
+      <div class="card hide-1" style="width: 18rem;">
+        <img src="./media/swiss.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h3>Wonders of Swiss</h3>
+          <p class="card-text">Lorem ipsum dolor sit Veritatis ipsum quam culpa aperiam, saepe quo.</p>
+        </div>
+        <p class="text-center text-info">From 1920$</p>
+        <button class="border-0 p-3"><a href="http://">More...</a></button>
+      </div>
+      <div class="card hide-2" style="width: 18rem;">
+        <img src="./media/coast.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h3>Sardinia & Corsica</h3>
+          <p class="card-text">Lorem ipsum dolor sit amet elit. ipsum quam culpa aperiam, saepe quo.</p>
+        </div>
+        <p class="text-center text-info">From 1470$</p>
+        <button class="border-0 p-3"><a href="https://github.com/ghughuni">More...</a></button>
+      </div>
+    </div>
+  </section>
+  <!-- footer section -->
+  <footer class="section">
+    <p>
+      copyright &copy; <a href="https://github.com/ghughuni"> by Ghughuni</a> <span id="date">
+      </span>
+    </p>
+  </footer>
+  <a href="#home" class="scroll-link top-link">
+    <i class="fas fa-arrow-up"></i>
+  </a>
+  <!-- javascript -->
+  <script src="main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
